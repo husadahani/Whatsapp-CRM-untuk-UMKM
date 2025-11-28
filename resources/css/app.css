@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    /* DM Sans Font */
+    --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* WhatsApp Color Palette */
+    --color-wa-primary: #25D366;
+    --color-wa-primary-dark: #1DA851;
+    --color-wa-secondary: #075E54;
+    --color-wa-teal: #128C7E;
+    --color-wa-light: #ECE5DD;
+    --color-wa-chat-bg: #E4DDD6;
+    --color-wa-white: #FFFFFF;
+    --color-wa-dark: #1F2C34;
+    --color-wa-gray: #667781;
+    --color-wa-light-gray: #F0F2F5;
+}
